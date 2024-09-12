@@ -40,3 +40,14 @@ body {
     bottom: 0;
     width: 100%;
   }
+
+@media (max-width: 600px) {
+      .container {
+        flex-direction: column; /* Alinha as divs verticalmente em telas menores */
+        align-items: center;
+      }
+      .button-security img, .button-key img, .button-bike img {
+        width: 100px; /* Ajusta o tamanho das imagens para telas menores */
+        height: auto;
+      }
+    }
