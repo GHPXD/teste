@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: azure;
+
+  }
+  header {
+    text-align: center;
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px 0;
+  }
+  .container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+  }
+  .subtitulo {
+    text-align: center;
+    font-weight: bold;
+  }
+  .button-security, .button-key, .button-bike {
+    border: none;
+    background: none;
+    cursor: pointer;
+  }
+  .button-security img, .button-key img, .button-bike img {
+    transition: transform 0.3s, opacity 0.3s;
+  }
+  .button-security img:hover, .button-key img:hover, .button-bike img:hover {
+    transform: scale(1.1);
+    opacity: 0.8;
+  }
+  footer {
+    text-align: center;
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
